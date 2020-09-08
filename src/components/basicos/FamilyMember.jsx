@@ -3,5 +3,5 @@ import React from 'react'
 
 export default (props) => {
 
-    return <span>Pedro <strong>Silva</strong></span>
+return <div> { props.name } <strong> { props.last_name} </strong></div>
 }

@@ -7,6 +7,7 @@ import First from './components/basicos/First'
 import Fragment from './components/basicos/Fragment'
 import Random from './components/basicos/Random'
 import WithParameter from './components/basicos/WithParameter'
+import Family from './components/basicos/Family'
 
 export default (props) => {
     return (
@@ -14,8 +15,8 @@ export default (props) => {
             <h1> Fundamentos React </h1>
             
             <div  className='Cards'>
-                <Card titulo='#05 - Componente com os filhos' color="#FA6900">
-                    
+                <Card titulo='#05 - Componente com os filhos' color="#00c8F8">
+                    <Family></Family>
                 </Card>
                 <Card titulo='#04 - Desafio aleatorio' color="#FA6900">
                     <Random min={1} max={60} />
