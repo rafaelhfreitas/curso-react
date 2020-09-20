@@ -4,7 +4,6 @@ import React, { Component } from 'react'
 
 import Display from './Display'
 import Buttons from './Buttons'
-import Step from './StepForm'
 import StepForm from './StepForm'
 
 class Counter extends Component {

@@ -17,6 +17,7 @@ import DirectParent from './components/comunication/DirectParent'
 import IndirectParent from './components/comunication/IndirectParent'
 import Input from './components/form/Input'
 import Counter from './components/counter/Counter'
+import Loterry from './components/loterry/Loterry'
 
 
 export default (props) => {
@@ -25,7 +26,11 @@ export default (props) => {
             <h1> Fundamentos React </h1>
             
             <div  className='Cards'>
-                <Card titulo='#12  - Contador' color="#424242"> 
+                <Card titulo='#13  - Loterry' color="#B9006E"> 
+                     <Loterry></Loterry>
+                </Card> 
+
+                <Card titulo='#12  - Counter' color="#424242"> 
                     <Counter initialNumber={15}></Counter>
                 </Card> 
                 
