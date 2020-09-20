@@ -15,6 +15,7 @@ import EvenOrOdd from './components/conditional/EvenOrOdd'
 import UserInfo from './components/conditional/UserInfo'
 import DirectParent from './components/comunication/DirectParent'
 import IndirectParent from './components/comunication/IndirectParent'
+import Input from './components/form/Input'
 
 
 export default (props) => {
@@ -23,6 +24,9 @@ export default (props) => {
             <h1> Fundamentos React </h1>
             
             <div  className='Cards'>
+                <Card titulo='#11  - Componente controlado (input)' color="#8BAD39"> 
+                    <Input></Input>
+                </Card> 
                 <Card titulo='#10  - Comunicação indireta' color="#8BAD39"> 
                     <IndirectParent></IndirectParent>
                 </Card> 
