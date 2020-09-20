@@ -10,6 +10,7 @@ import WithParameter from './components/basic/WithParameter'
 import Family from './components/basic/Family'
 import FamilyMember from './components/basic/FamilyMember'
 import ListStudent from './components/repetition/ListStudents'
+import ListProduct from './components/repetition/ListProducts'
 
 export default (props) => {
     return (
@@ -17,7 +18,10 @@ export default (props) => {
             <h1> Fundamentos React </h1>
             
             <div  className='Cards'>
-                <Card titulo='#06 - Desafio aleatorio' color="#FA6900">
+                <Card titulo='#07  - Desafio Repetição' color="#FF432E">
+                    <ListProduct/>
+                </Card>
+                <Card titulo='#06 - Repetição' color="#FF4c65">
                     <ListStudent/>
                 </Card>
                 <Card titulo='#05 - Componente com os filhos' color="#00c8F8">

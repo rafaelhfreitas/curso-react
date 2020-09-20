@@ -6,7 +6,7 @@ import students from '../../data/students'
 
 export default props => {
 
-    const listStudent = students.map((student) => {
+    const listStudents = students.map((student) => {
         return (
             <li key={student.id}>
                 {student.id}) {student.name} -> {student.grade}
@@ -17,7 +17,7 @@ export default props => {
     return (
         <div>
             <ul style={{ listStyle: 'none' }} >
-                {listStudent}
+                {listStudents}
             </ul>
         </div>
     )
