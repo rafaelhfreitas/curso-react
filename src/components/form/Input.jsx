@@ -17,8 +17,11 @@ export default props => {
                 display: 'flex',
                 flexDirection: 'column'
             }}>
+                {/* componente controlado */}
                 <input value={value} onChange={onChange} ></input>
+                {/* componente não controlado */}
                 <input value={value} readOnly></input>
+                {/* componente não controlado */}
                 <input value={undefined}></input>
             </div>
 
