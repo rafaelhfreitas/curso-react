@@ -1,25 +1,16 @@
 import React from 'react'
 
 import products from '../../data/products';
+import './TableProducts.css'
 
 
 export default props => {
 
-    const listProducts = products.map((product) => {
-        return (
-            <li key={product.id}>
-                {product.id}) {product.name} -> {product.value}
-            </li>
-        );
-    });
-
-
-
     function getRows(){
 
-        return products.map(product => {
+        return products.map((product,i) => {
             return (
-                <tr>
+                <tr  key={product.id} className={i % 2 === 0 ? 'Even' : 'Odd'}>
                     <td>{product.id}</td>
                     <td>{product.name}</td>
                     <td>R$ {product.value.toFixed(2).replace('.',',')}</td>

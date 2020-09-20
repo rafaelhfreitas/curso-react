@@ -11,6 +11,8 @@ import Family from './components/basic/Family'
 import FamilyMember from './components/basic/FamilyMember'
 import ListStudent from './components/repetition/ListStudents'
 import ListProduct from './components/repetition/ListProducts'
+import EvenOrOdd from './components/conditional/EvenOrOdd'
+import UserInfo from './components/conditional/UserInfo'
 
 export default (props) => {
     return (
@@ -18,7 +20,13 @@ export default (props) => {
             <h1> Fundamentos React </h1>
             
             <div  className='Cards'>
-                <Card titulo='#07  - Desafio Repetição' color="#FF432E">
+                <Card titulo='#08  - Renderização condicional' color="#982395">
+                    <EvenOrOdd number={21}/>
+                    <UserInfo user={{ name: 'Rafael Freitas'}} />
+                    <UserInfo user={{ email: 'Rafael Freitas'}} />
+
+                </Card>                
+                <Card titulo='#07  - Desafio Repetição' color="#3A9Ad9">
                     <ListProduct/>
                 </Card>
                 <Card titulo='#06 - Repetição' color="#FF4c65">
