@@ -7,7 +7,7 @@ export default props => {
     return (
         <div>
             <DirectChildren text='Rafael Freitas' number={14} bool= {true}></DirectChildren>
-            <DirectChildren text='Rafael Henrique' number={14} bool= {false}></DirectChildren>
+            <DirectChildren text='Rafael Henrique' number={45} bool= {false}></DirectChildren>
 
         </div>
     )
