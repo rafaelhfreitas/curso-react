@@ -13,6 +13,9 @@ import ListStudent from './components/repetition/ListStudents'
 import ListProduct from './components/repetition/ListProducts'
 import EvenOrOdd from './components/conditional/EvenOrOdd'
 import UserInfo from './components/conditional/UserInfo'
+import DirectParent from './components/comunication/DirectParent'
+import IndirectParent from './components/comunication/IndirectParent'
+
 
 export default (props) => {
     return (
@@ -20,6 +23,12 @@ export default (props) => {
             <h1> Fundamentos React </h1>
             
             <div  className='Cards'>
+                <Card titulo='#10  - Comunicação indireta' color="#8BAD39"> 
+                    <IndirectParent></IndirectParent>
+                </Card> 
+                <Card titulo='#09  - Comunicação direta' color="#59323C"> 
+                    <DirectParent></DirectParent>
+                </Card>                  
                 <Card titulo='#08  - Renderização condicional' color="#982395">
                     <EvenOrOdd number={21}/>
                     <UserInfo user={{ name: 'Rafael Freitas'}} />
