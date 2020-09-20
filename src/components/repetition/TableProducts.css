@@ -1,0 +1,21 @@
+.TableProducts th {
+    background-color:  #283cae; 
+    color: #FFF;
+}
+
+
+.TableProducts table {
+    width: 100%;
+}
+
+
+.TableProducts .Even {
+    background-color: #ddd;
+
+}
+
+
+.TableProducts .Odd {
+    background-color: #ccc;
+
+}
