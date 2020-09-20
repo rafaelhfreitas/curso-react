@@ -23,8 +23,7 @@ export default (props) => {
                 <Card titulo='#08  - Renderização condicional' color="#982395">
                     <EvenOrOdd number={21}/>
                     <UserInfo user={{ name: 'Rafael Freitas'}} />
-                    <UserInfo user={{ email: 'Rafael Freitas'}} />
-
+                    {/* <UserInfo user={{ email: 'Rafael Freitas'}} /> */}
                 </Card>                
                 <Card titulo='#07  - Desafio Repetição' color="#3A9Ad9">
                     <ListProduct/>
